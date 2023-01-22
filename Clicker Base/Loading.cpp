@@ -7,7 +7,7 @@ bool Minecraftattach() { //Check If foreground Window is (Check Process Hacker->
 	char filename[256];
 	GetWindowTextA(hWnd, filename, sizeof(filename));
 	if (std::string(filename).find("Minecraft") != std::string::npos || std::string(filename).find("Lunar") != std::string::npos) { //Or add other Clients
-		return true;
+		return true;						//If you prefer you can use LWJGL method that will directly find javaw process
 	}
 	else {
 		return false;
