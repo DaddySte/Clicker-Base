@@ -577,8 +577,8 @@ namespace ClickerBase {
 						}
 					}
 
-					ClickerFunction(CPSValue->Value, ExtraRand->Checked, enableblockhit, enablespike); //Calling Clicker Function, If you prefer you can code
-																										//it there. A function looks better
+					ClickerFunction(CPSValue->Value, ExtraRand->Checked, enableblockhit, enablespike); //Calling Clicker Function, 
+														//If you prefer you can code it there. Function looks better										//it there. A function looks better
 				}
 
 				enablespike = false;
