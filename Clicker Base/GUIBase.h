@@ -527,10 +527,10 @@ namespace ClickerBase {
 		while (1) {
 			if (ONOFF->Checked && Jitter->Checked && Minecraftattach()) {
 
-				Thread::Sleep(1); //Prevents CPU to Run "Anything" as Fast as it Can (run over normal usage) while you're not holding left click
+				Thread::Sleep(1); //Prevents CPU to Run "Nothing" as Fast as it Can (run over normal usage) while you're not holding left click
 
 				while (SmartMode->Checked && cursor_visibility()) {
-					Thread::Sleep(1); //Disable The Jitter Effect While Cursor is Shown
+					Thread::Sleep(1); //Disable The Jitter Effect While Cursor is Shown. Example: In inventory or Main Menù
 				}
 
 				JitterFunction(JitterValue->Value);//Calling Jitter Function, If you prefer you can code
@@ -538,7 +538,7 @@ namespace ClickerBase {
 
 			}
 			else {
-				Thread::Sleep(1); //Prevents CPU to Run "Anything" as Fast as it Can (run over normal usage) when the clicker is OFF
+				Thread::Sleep(1); //Prevents CPU to Run "Nothing" as Fast as it Can (run over normal usage) when the clicker is OFF
 			}
 		}
 	}
@@ -548,10 +548,10 @@ namespace ClickerBase {
 		while (1) {
 			if (ONOFF->Checked && Minecraftattach()) {
 
-				Thread::Sleep(1); //Prevents CPU to Run "Anything" as Fast as it Can (run over normal usage) while you're not holding left click
+				Thread::Sleep(1); //Prevents CPU to Run "Nothing" as Fast as it Can (run over normal usage) while you're not holding left click
 
 				while (SmartMode->Checked && cursor_visibility()) {
-					Thread::Sleep(1); //Disable The Jitter Effect While Cursor is Shown
+					Thread::Sleep(1); //Disable The Clicker Effect While Cursor is Shown. Example: In inventory or Main Menù
 				}
 
 				if (GetAsyncKeyState(VK_LBUTTON) & 0x8000) {
@@ -584,7 +584,7 @@ namespace ClickerBase {
 				enableblockhit = false;
 			}
 			else {
-				Thread::Sleep(1); //Prevents CPU to Run "Anything" as Fast as it Can (run over normal usage) when the clicker is OFF
+				Thread::Sleep(1); //Prevents CPU to Run "Nothing" as Fast as it Can (run over normal usage) when the clicker is OFF
 			}
 		}
 }
