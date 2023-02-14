@@ -3,7 +3,7 @@
 using namespace std;
 //Custom **************************************************************************************************************
 void ClickerFunction(int CPS, bool ExtraR, bool Blockhitenabler, bool Spikes) {
-	//Use Your Own Code There
+	//Use Your Own Code There.
 	//Physiological AC uses a Private Method
 	//Here's an example of how you can code the clicker function
 	//THIS IS JUST AN EXAMPLE AND RANDOMIZATION SHOULD BE DONE BETTER FOR A BETTER BYPASS AND FOR BETTER CPS ACCURACY.
