@@ -585,7 +585,7 @@ namespace ClickerBase {
 				enableblockhit = false;
 			}
 			else {
-				Thread::Sleep(1); //Prevents CPU to Run "Nothing" as Fast as it Can (run over normal usage) when the clicker is OFF
+				Thread::Sleep(1); //Prevents CPU to Run "Nothing" as Fast as it Can (run over normal usage) when the clicker is OFF.
 			}
 		}
 }
